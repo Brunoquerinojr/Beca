@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+body {
+    /* height: 300vh; */
+    background-color: #eceBE9;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #C3BCB7;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 9;
+    transition: top 0.4s;
+  }
+
+  
+  
+  .logo {
+    padding-left: 50px;
+  }
+  .logo img {
+    height: 40px;
+  }
+  .links a {
+    margin-right: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    color: #17203F;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .links a:hover {
+    color: #8B634A;
+  }
+  /* Fim header */
+
+ .container {
+    background-color: #C3BCB7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+    max-width: 1450px; /* Defina a largura máxima desejada */
+    width: 300%; /* Isso garante que o container se ajuste ao tamanho disponível */
+    margin: 0 auto; /* Centraliza o container na página */
+  }
+
+ 
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  h2 {
+    text-align: center;
+    color: #1B3B56;
+  }
+ 
+  label {
+    margin-bottom: 8px;
+    color: #555;
+  }
+ 
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 900px; /* Defina a largura máxima desejada */
+    width: 300%; /* Isso garante que o container se ajuste ao tamanho disponível */
+    margin: 0 auto; /* Centraliza o container na página */
+  }
+ 
+  button[type="submit"] {
+    background-color: #1B3B56;
+    color: #fff;
+  }
+ 
+
+ 
+  button:hover {
+   background-color:  #8B634A ;
+  }
+  

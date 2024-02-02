@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    
+</head>
+<body>
+
+    <!--Aqui começa o Header-->
+
+    <header>
+        <div id="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="Assets/logo-roupa.png" alt="Logo"></a>
+            </div>
+            <div class="links">
+                <span class="spanprod"><a href="#">Home</a></span>
+                <a href="#">Novidades</a>
+                <a href="#">Destaques</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!--Aqui Termina o Header-->
+   
+    <!--Aqui Começa o Contact-->
+    
+    <div class="container">
+        <form action="processar_cadastro.php" method="POST">
+          <h2>Nosso Newsletter</h2>
+          <label for="nome"></label>
+          <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+   
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="Seu Email" required>
+   
+          <div class="buttons">
+            <button type="submit">Inscrever-se</button>
+           
+          </div>
+        </form>
+      </div>
+
+    <!--Aqui Termina o Contact-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer>
+        <div class="container">
+            <img src="image/logo-roupa.png" alt="">
+            <p class="text-pq">Copyright © 2022 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

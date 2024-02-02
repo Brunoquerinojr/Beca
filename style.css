@@ -1,108 +1,125 @@
+
 *{
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Sawarabi Gothic', sans-serif;
+    box-sizing: border-box;
 }
+
 body {
-    /* height: 300vh; */
-    background-color: #eceBE9;
-
+background-image: url(assets/bg-2.png);
 }
 
-#navbar {
+header {
+    background-color: #C3BCB7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 15%;
+}
+
+header ul {
+    margin-right: 50px;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-size: 24px
+}
+
+header ul a {
+    color: #17203F;
+}
+
+header ul a:hover {
+    color: #8B634A;
+}
+
+/* ------------------------ */
+
+.contato {
+    margin-top:10px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #C3BCB7;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 9;
-    transition: top 0.4s;
-  }
+    justify-content: center;
+}
 
-  
-  
-  .logo {
-    padding-left: 50px;
-  }
-  .logo img {
-    height: 40px;
-  }
-  .links a {
+/* ------------ */
+
+#news-section {
+    background-color: #C3BCB7;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin-left: 10px;
     margin-right: 10px;
-    padding: 10px;
-    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.314);
+    margin-bottom: 40px;
+}
+
+.news {
     color: #17203F;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  .links a:hover {
-    color: #8B634A;
-  }
-  /* Fim header */
-
- .container {
-    background-color: #C3BCB7;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 60px;
-    max-width: 1450px; /* Defina a largura máxima desejada */
-    width: 300%; /* Isso garante que o container se ajuste ao tamanho disponível */
-    margin: 0 auto; /* Centraliza o container na página */
-  }
+}
 
- 
- 
-  form {
+.cadastro {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
-  }
- 
-  h2 {
-    text-align: center;
-    color: #1B3B56;
-  }
- 
-  label {
-    margin-bottom: 8px;
-    color: #555;
-  }
- 
-  input {
-    padding: 10px;
-    margin-bottom: 16px;
-    
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
- 
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-  }
- 
-  button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    max-width: 900px; /* Defina a largura máxima desejada */
-    width: 300%; /* Isso garante que o container se ajuste ao tamanho disponível */
-    margin: 0 auto; /* Centraliza o container na página */
-  }
- 
-  button[type="submit"] {
-    background-color: #1B3B56;
-    color: #fff;
-  }
- 
+}
 
- 
-  button:hover {
-   background-color:  #8B634A ;
-  }
-  
+.formulario input {
+    height: 45px;
+    border: none;
+    width: 150vh;
+    margin-bottom: 16px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.button {
+    background-color: #1B3B56;
+    padding-right: 15px;
+    color: white;
+}
+
+.button:hover {
+    background-color: #8B634A;
+}
+
+/* ------------------------- */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C3BCB7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 10%;
+}
+
+footer p {
+    font-size: 20px;
+    color: #17203F;
+}
